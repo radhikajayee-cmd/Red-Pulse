@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "c4149vdad",
+    "name": "System Admin",
+    "email": "admin@bloodbank.com",
+    "password": "$2a$10$.FnU44lYWzovKBAuVRhM8e.W3AKlqqCn9FTyficXt8tzINfqnJgoq",
+    "role": "admin",
+    "phone": "+1 (555) 0199",
+    "address": "Main Blood Bank Center, Medical District",
+    "createdAt": "2026-05-24T06:43:39.190Z",
+    "updatedAt": "2026-05-24T06:43:39.190Z"
+  },
+  {
+    "_id": "et951oixm",
+    "name": "John Doe",
+    "email": "donor@gmail.com",
+    "password": "$2a$10$.FnU44lYWzovKBAuVRhM8e0t0ApcRLJ/lhhQC9ITqhe/UaXnUu3fe",
+    "role": "donor",
+    "phone": "+1 (555) 0144",
+    "address": "742 Evergreen Terrace, Springfield",
+    "createdAt": "2026-05-24T06:43:39.192Z",
+    "updatedAt": "2026-05-24T06:43:39.192Z"
+  },
+  {
+    "_id": "up2xwpbad",
+    "name": "City Central Hospital",
+    "email": "hospital@central.com",
+    "password": "$2a$10$.FnU44lYWzovKBAuVRhM8ez4l9hXcswI0gDmMA8XZUuccDX62zHGu",
+    "role": "hospital",
+    "phone": "+1 (555) 0188",
+    "address": "456 Healthcare Blvd, Metropolis",
+    "createdAt": "2026-05-24T06:43:39.193Z",
+    "updatedAt": "2026-05-24T06:43:39.193Z"
+  },
+  {
+    "_id": "f0mw1e1mg",
+    "name": "jdlksjf",
+    "email": "kjfleji@gmail.com",
+    "password": "$2a$10$U.5jGfJb0StpyDKguosjieMBHFkCDkQb9Kqycbl4vdJLh/ZF2lmiG",
+    "role": "donor",
+    "phone": "9168757478",
+    "address": "glb ",
+    "createdAt": "2026-05-24T08:13:30.812Z",
+    "updatedAt": "2026-05-24T08:13:30.812Z"
+  }
+]

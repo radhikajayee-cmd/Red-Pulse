@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "eojd7ljur",
+    "bloodGroup": "A+",
+    "units": 25,
+    "createdAt": "2026-05-24T06:43:39.200Z",
+    "updatedAt": "2026-05-24T06:43:39.200Z"
+  },
+  {
+    "_id": "44s4llzvd",
+    "bloodGroup": "A-",
+    "units": 14,
+    "createdAt": "2026-05-24T06:43:39.201Z",
+    "updatedAt": "2026-05-24T06:43:39.201Z"
+  },
+  {
+    "_id": "6sgust5ep",
+    "bloodGroup": "B+",
+    "units": 18,
+    "createdAt": "2026-05-24T06:43:39.202Z",
+    "updatedAt": "2026-05-24T06:43:39.202Z"
+  },
+  {
+    "_id": "n63diy315",
+    "bloodGroup": "B-",
+    "units": 8,
+    "createdAt": "2026-05-24T06:43:39.203Z",
+    "updatedAt": "2026-05-24T06:43:39.203Z"
+  },
+  {
+    "_id": "qhpkhwjoj",
+    "bloodGroup": "O+",
+    "units": 30,
+    "createdAt": "2026-05-24T06:43:39.205Z",
+    "updatedAt": "2026-05-24T06:43:39.205Z"
+  },
+  {
+    "_id": "z4qxw7l7v",
+    "bloodGroup": "O-",
+    "units": 12,
+    "createdAt": "2026-05-24T06:43:39.206Z",
+    "updatedAt": "2026-05-24T06:43:39.206Z"
+  },
+  {
+    "_id": "ap7s376rd",
+    "bloodGroup": "AB+",
+    "units": 22,
+    "createdAt": "2026-05-24T06:43:39.207Z",
+    "updatedAt": "2026-05-24T06:43:39.207Z"
+  },
+  {
+    "_id": "uwlc6zvcm",
+    "bloodGroup": "AB-",
+    "units": 4,
+    "createdAt": "2026-05-24T06:43:39.208Z",
+    "updatedAt": "2026-05-24T06:43:39.208Z"
+  }
+]

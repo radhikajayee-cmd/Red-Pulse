@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "5vaj7e56u",
+    "title": "Welcome Admin!",
+    "message": "You have successfully set up the Blood Bank Management System dashboard.",
+    "type": "success",
+    "role": "admin",
+    "createdAt": "2026-05-24T06:43:39.217Z",
+    "updatedAt": "2026-05-24T06:43:39.217Z"
+  },
+  {
+    "_id": "a6j510rlj",
+    "title": "Low Stock Alert: AB-",
+    "message": "The blood stock level for AB- is low (4 units). Please replenish stock soon.",
+    "type": "warning",
+    "role": "admin",
+    "createdAt": "2026-05-24T06:43:39.217Z",
+    "updatedAt": "2026-05-24T06:43:39.217Z"
+  },
+  {
+    "_id": "xj5emyrid",
+    "title": "Low Stock Alert: B-",
+    "message": "The blood stock level for B- is low (8 units). Please replenish stock soon.",
+    "type": "warning",
+    "role": "admin",
+    "createdAt": "2026-05-24T06:43:39.218Z",
+    "updatedAt": "2026-05-24T06:43:39.218Z"
+  },
+  {
+    "_id": "yz2fosshf",
+    "title": "Blood Request Approved",
+    "message": "Your request for 4 units of O+ for Robert Langdon has been approved.",
+    "type": "success",
+    "userId": "up2xwpbad",
+    "role": "hospital",
+    "createdAt": "2026-05-24T06:43:39.219Z",
+    "updatedAt": "2026-05-24T06:43:39.219Z"
+  },
+  {
+    "_id": "ha3qrzu6z",
+    "title": "New Appointment booked",
+    "message": "jdlksjf booked a donation slot on 2026-05-24 at 08:00 AM - 09:00 AM.",
+    "type": "info",
+    "role": "admin",
+    "createdAt": "2026-05-24T08:14:54.554Z",
+    "updatedAt": "2026-05-24T08:14:54.554Z"
+  }
+]

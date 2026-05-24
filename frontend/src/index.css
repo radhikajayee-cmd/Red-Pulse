@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FBFBFC] text-hospital-gray-deep font-sans antialiased transition-colors duration-300;
+  }
+  
+  body.dark {
+    @apply bg-[#0D1117] text-gray-100;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-700 rounded;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-gray-600;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 dark:bg-hospital-gray-deep/70 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-glass rounded-2xl;
+  }
+  
+  .glass-card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:border-primary-200/50 hover:translate-y-[-2px];
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-hospital-red to-hospital-red-dark text-white font-medium px-5 py-2.5 rounded-xl shadow-md shadow-red-500/10 hover:shadow-lg hover:shadow-red-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-white dark:bg-hospital-gray-deep text-hospital-gray-deep dark:text-gray-200 border border-hospital-gray-medium dark:border-gray-700 font-medium px-5 py-2.5 rounded-xl hover:bg-hospital-gray-light dark:hover:bg-hospital-gray-dark/50 active:scale-[0.98] transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full bg-white/80 dark:bg-hospital-gray-abyss/80 border border-hospital-gray-medium dark:border-gray-800 rounded-xl px-4 py-2.5 text-sm focus:border-hospital-red focus:ring-2 focus:ring-hospital-red/20 outline-none transition-all duration-200 dark:text-white;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-3 text-gray-600 dark:text-gray-400 font-medium rounded-xl hover:bg-hospital-red-light/50 hover:text-hospital-red dark:hover:bg-hospital-red-deep/20 dark:hover:text-red-400 transition-all duration-200;
+  }
+
+  .sidebar-link-active {
+    @apply sidebar-link bg-hospital-red text-white hover:bg-hospital-red hover:text-white dark:bg-hospital-red dark:text-white dark:hover:bg-hospital-red dark:hover:text-white shadow-md shadow-red-500/10;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
